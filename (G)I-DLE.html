@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="sidebar.css">
+
+    <title>(G)I-DLE.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="intro-to-html/styles/header.css">
+
+    <style>
+      .header {
+        height: 50px;
+      }
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .search-bar {
+        display: block;
+      }
+
+      .video-title {
+        width: 250px;
+        font-size: 18px;
+        font-weight: 550;
+        line-height: 30px;
+        margin-bottom: 12px;
+      }
+      
+      .video-author {
+        font-size: 15px;
+        color: rgb(133, 148, 154);
+        margin-bottom: 12px;
+      }
+
+      .video-stats {
+        font-size: 15px;
+        color: rgb(133, 148, 154);
+      }
+
+      .video-grid {
+        display: flex;          
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .video-preview {
+        flex: 1 1 250px;
+        max-width: 300px;
+        box-sizing: border-box;
+      }
+      .video-preview img {
+        width: 100%;
+        height: 300px;
+        display: block;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button>
+          <img class="search" src="icons/search.svg">
+        </button>
+        <button>
+          <img class="voice-search-icon"src="icons/voice-search-icon.svg">
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload" src="icons/upload.svg">
+        <img class="youtube-apps" src="icons/youtube-apps.svg">
+      <div class="notifications-container">
+        <img class="notifications" src="icons/notifications.svg">
+        <div class="notifications-counts">2</div>
+      </div>
+
+        <img class="GI-dle_logo" src="icons/GI-dle_logo.svg">
+      </div>
+    </div>
+
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=t9BA_iw8oBk" target="_blank" class="card-link">
+          <img class="HEATPhoto" src="(G)I-DLE Photo/HEAT.jpeg">
+        </a>
+        
+        <p class="video-title">
+          <strong>(G)I-DLE</strong> brings the fire with their new EP <strong>HEAT</strong>!
+        </p>
+    
+        <p class="video-author">
+          (G)I-DLE
+        </p>
+    
+        <p class="video-stats">
+          K-Pop &#183; 2023 &#183; 5 Songs
+      </p>
+      </div>
+  
+   
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=HJgQ8HvutbU" target="_blank" class="card-link">
+          <img class="IFEELPhoto" src="(G)I-DLE Photo/I FEEL.jpg">
+        </a>
+      <p class="video-title">
+        <strong>I FEEL</strong> is the sixth Korean extended play by <strong>(G)I-dle!</strong>
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2023 &#183; 6 Songs
+      </p>
+      </div>
+     
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=UbU17nGp4fo" target="_blank" class="card-link">
+          <img class="ISWAYPhoto" src="(G)I-DLE Photo/I SWAY.jpeg">
+        </a>
+      
+      <p class="video-title">
+        <strong>I Sway</strong> is the seventh Korean extended play by <strong>(G)I-DLE!</strong>
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2024 &#183; 4 Songs
+      </p>
+      </div>
+      
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=SmuuDi5ZwOo" target="_blank" class="card-link">
+          <img class="ILovePhoto" src="(G)I-DLE Photo/ILove.jpg">
+        </a>
+      
+      <p class="video-title">
+        <strong>I Love</strong> is the fifth Korean extended play by <strong>(G)I-dle!</strong>
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2023 &#183; 6 Songs
+      </p>
+      </div>
+      
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=EkASHbJNzlU" target="_blank" class="card-link">
+          <img class="INEVERDIEPhoto" src="(G)I-DLE Photo/I Never Die.jpg">
+        </a>
+      
+      
+      <p class="video-title">
+        <strong>I Never Die</strong> is the first studio album by South Korean girl group <strong>(G)I-dle!</strong>
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2022 &#183; 5 Songs
+      </p>
+      </div>
+     
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=uqhXfHh7k_o" target="_blank" class="card-link">
+          <img class="DUMNDIPhoto" src="(G)I-DLE Photo/DUMDI.jpg">
+        </a>
+        
+      
+      <p class="video-title">
+        <strong>Dumdi Dumdi</strong> was described as <strong>(G)I-dle's</strong> style of a summer dance song.
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2020 &#183; 6 Songs
+      </p>
+      </div>
+      
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=ZT33tQBRO80" target="_blank" class="card-link">
+          <img class="twoPhoto" src="(G)I-DLE Photo/two.jpeg">
+        </a>
+      
+      <p class="video-title">
+        <strong>Two</strong> to showcase the <strong>(G)I-dle</strong> extensive involvement in writing and producing songs.
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2024 &#183; 8 Songs
+      </p>
+      </div>
+      
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=KtOC9LNIyBo" target="_blank" class="card-link">
+          <img class="IMadePhoto" src="(G)I-DLE Photo/IMade.jpg">
+        </a>
+      
+      <p class="video-title">
+        <strong>I Made</strong> released with "Super Lady" serving as the album's title track.
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2019 &#183; 5 Songs
+      </p>
+      </div>
+      
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=FxrAXYOpF0k" target="_blank" class="card-link">
+          <img class="ITrustPhoto" src="(G)I-DLE Photo/ITrust.jpeg">
+        </a>
+      
+      <p class="video-title">
+        <strong>I Trust</strong> comes from setting the subject of belief as "myself".
+      </p>
+  
+      <p class="video-author">
+        (G)I-DLE
+      </p>
+  
+      <p class="video-stats">
+        K-Pop &#183; 2020 &#183; 5 Songs
+      </p>
+    </div>
+    
+     
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Video</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Music</div>
+    </div>
